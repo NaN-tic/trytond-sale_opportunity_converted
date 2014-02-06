@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of the sale_opportunity_converted module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page[@id='opportunity']/group[@id='buttons']/button[@name='convert']" position="before">
+        <button name="convert_without_sale" string="Convert without Sale"
+            icon="tryton-go-next"/>
+    </xpath>
+</data>
