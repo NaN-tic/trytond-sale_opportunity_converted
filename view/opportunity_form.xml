@@ -4,7 +4,8 @@ The COPYRIGHT file at the top level of this repository contains the full
 copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook/page[@id='opportunity']/group[@id='buttons']/button[@name='convert']" position="before">
-        <button name="convert_without_sale" string="Convert without Sale"
-            icon="tryton-go-next"/>
+        <button name="convert_without_sale" string="Convert without Sale" icon="tryton-go-next"/>
+        <button name="convert_lost" string="Lost" icon="tryton-cancel"/>
+        <button name="convert_sale" string="Convert Sale" icon="tryton-go-next"/>
     </xpath>
 </data>
