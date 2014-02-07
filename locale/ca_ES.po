@@ -2,6 +2,28 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "error:sale.opportunity:"
+msgid "Sale \"%s\" must be cancelled before lost."
+msgstr ""
+"La comanda de venda \"%s\" s'ha de cancel·lar primer abans de marcar com a "
+"perdut."
+
+msgctxt "error:sale.opportunity:"
+msgid ""
+"You can not create a new sale from opportunity \"%s\" because is related to "
+"sale \"%s\""
+msgstr ""
+"No pot crear una nova comanda de venda de la oportunitat \"%s\" perque ja es"
+" troba relacionat amb la comanda \"%s\"."
+
+msgctxt "view:sale.opportunity:"
+msgid "Convert Sale"
+msgstr "Converteix a comanda"
+
 msgctxt "view:sale.opportunity:"
 msgid "Convert without Sale"
 msgstr "Converteix sense comanda"
+
+msgctxt "view:sale.opportunity:"
+msgid "Lost"
+msgstr "Perdut"
