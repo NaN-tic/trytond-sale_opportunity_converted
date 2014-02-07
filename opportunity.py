@@ -32,7 +32,7 @@ class SaleOpportunity:
                 'invisible': ~Eval('state').in_(['converted']),
                 },
             'convert_sale': {
-                'invisible': ((Eval('state').in_(['converted'])) & (Bool(Eval('sale')))),
+                'invisible': ((~Eval('state').in_(['converted'])) | (Bool(Eval('sale')))),
                 },
             })
 
