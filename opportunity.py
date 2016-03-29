@@ -6,10 +6,10 @@ from trytond.pool import Pool, PoolMeta
 from trytond.pyson import Bool, Eval
 
 __all__ = ['SaleOpportunity']
-__metaclass__ = PoolMeta
 
 
 class SaleOpportunity:
+    __metaclass__ = PoolMeta
     __name__ = "sale.opportunity"
 
     @classmethod
