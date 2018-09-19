@@ -7,7 +7,7 @@ copyright notices and license terms. -->
         <group col="7" colspan="2" id="buttons"/>
     </xpath>
     <xpath expr="/form/notebook/page[@id='opportunity']/group[@id='buttons']/button[@name='convert']" position="before">
-        <button name="convert_without_sale" string="Convert without Sale" icon="tryton-go-next"/>
-        <button name="create_sales" string="Create Sale" icon="tryton-go-next"/>
+        <button name="convert_without_sale" icon="tryton-go-next"/>
+        <button name="create_sales" icon="tryton-go-next"/>
     </xpath>
 </data>

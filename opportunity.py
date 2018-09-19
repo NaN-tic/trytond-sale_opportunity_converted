@@ -8,8 +8,7 @@ from trytond.pyson import Bool, Eval
 __all__ = ['SaleOpportunity']
 
 
-class SaleOpportunity:
-    __metaclass__ = PoolMeta
+class SaleOpportunity(metaclass=PoolMeta):
     __name__ = "sale.opportunity"
 
     @classmethod

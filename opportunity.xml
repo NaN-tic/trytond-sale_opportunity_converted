@@ -8,5 +8,17 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="inherit" ref="sale_opportunity.opportunity_view_form"/>
             <field name="name">opportunity_form</field>
         </record>
+
+        <!-- Buttons -->
+        <record model="ir.model.button" id="opportunity_convert_without_sale_button">
+            <field name="name">convert_without_sale</field>
+            <field name="string">Convert without Sale</field>
+            <field name="model" search="[('model', '=', 'sale.opportunity')]"/>
+        </record>
+        <record model="ir.model.button" id="opportunity_create_sales_button">
+            <field name="name">create_sales</field>
+            <field name="string">Create Sales</field>
+            <field name="model" search="[('model', '=', 'sale.opportunity')]"/>
+        </record>
     </data>
 </tryton>
